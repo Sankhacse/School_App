@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "938004418967",
+    "project_id": "banga-boys-school",
+    "storage_bucket": "banga-boys-school.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938004418967:android:700176dfdc5b55643934d2",
+        "android_client_info": {
+          "package_name": "com.example.bangaboysps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnIEJ4mVF46-B6xYMe3-Zsgd4VANOFVzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

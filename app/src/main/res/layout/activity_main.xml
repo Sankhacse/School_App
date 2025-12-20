@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Announcement section -->
+        <TextView
+            android:id="@+id/announcementText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Announcements will appear here"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="#E8E8E8"
+            android:textColor="#000000" />
+
+        <!-- Images Button -->
+        <Button
+            android:id="@+id/btnImages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Images"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Videos Button -->
+        <Button
+            android:id="@+id/btnVideos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Videos"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Homework Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homework"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnHW1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Class 1"/>
+
+            <Button
+                android:id="@+id/btnHW2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Class 2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnHW3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Class 3"/>
+
+            <Button
+                android:id="@+id/btnHW4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Class 4"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnHW5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class 5"/>
+
+        <!-- Marksheet Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marksheets"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnMS1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Class 1"/>
+
+            <Button
+                android:id="@+id/btnMS2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Class 2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnMS3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Class 3"/>
+
+            <Button
+                android:id="@+id/btnMS4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Class 4"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnMS5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class 5"/>
+
+    </LinearLayout>
+
+</ScrollView>
