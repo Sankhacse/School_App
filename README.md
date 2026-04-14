@@ -1,142 +1,140 @@
 # 📘 School Management Android App
 
-A **production-grade Android application** built using **Kotlin and Jetpack Compose**
-for a secure, internal **school management system**, designed to streamline
-academic communication and digital resource sharing.
+A **production-grade Android application** built using **Kotlin and Jetpack Compose**, designed as a secure and scalable **school management system** for real-world institutional use.
 
-This project reflects a **real-world mobile application** built under practical constraints such as
-**data privacy, controlled access, and secure distribution** — closely aligned with industry practices.
+This project demonstrates how modern mobile applications can be engineered with a focus on **data privacy, controlled access, and seamless user experience**, closely reflecting **industry-standard Android development practices**.
 
 ---
 
-## 🌟 Overview
+## 🌟 Product Overview
 
-The application serves as a **centralized digital platform** for students, teachers,
-and school authorities to access academic and administrative information efficiently.
+The application serves as a **centralized digital platform** enabling students, teachers, and administrators to efficiently access academic resources and institutional information.
 
-### 🎯 Design Principles
+It replaces traditional manual workflows with a **structured, read-only digital system**, ensuring reliability, consistency, and ease of use.
 
-* Simplicity for young and non-technical users
-* Read-only architecture to prevent unintended data modification
-* Clean, scalable, and maintainable codebase
-* Security-first development approach
+---
+
+## 🎯 Design Principles
+
+* **User-Centric Simplicity** → Designed for students and non-technical users
+* **Read-Only Architecture** → Prevents unintended data modification
+* **Security-First Approach** → Protects institutional data
+* **Scalable Design** → Easily extendable for future features
+* **Clean Code Practices** → Maintainable and modular structure
 
 ---
 
 ## ✨ Core Features
 
-### 📢 Announcements
+### 📢 Announcements System
 
-* View latest notices in **chronological order**
-* Clean UI for quick readability
+* Chronologically ordered notices
+* Optimized for quick readability and access
 
-### 📚 Homework Section
+### 📚 Homework Management
 
-* Class-wise homework organization
-* Structured formatting for better clarity
+* Class-wise structured organization
+* Clear formatting for better comprehension
 
-### 📝 Marksheets
+### 📝 Academic Records (Marksheets)
 
-* Secure access to academic records
-* Document-based viewing system
+* Secure document-based access
+* Reliable and tamper-proof viewing system
 
 ### 🖼 School Gallery
 
-* Images displayed **natively inside the app**
-* Tap to open full-resolution images externally
+* Native image rendering using optimized loaders
+* Full-resolution viewing via external intent
 
 ### 📰 Digital Magazine
 
-* Access school publications in digital format
+* Centralized access to school publications
+* Seamless document viewing
 
-### 🎉 Holiday List
+### 🎉 Holiday Management
 
-* Official holiday schedules and notices
-* Easy document access
+* Official holiday listings
+* Easy access to schedules and notices
 
 ---
 
 ## 🛠 Tech Stack
 
 * **Language:** Kotlin
-* **UI Framework:** Jetpack Compose (Material 3)
+* **UI Toolkit:** Jetpack Compose (Material 3)
 * **Image Loading:** Coil
-* **Data Source:** Google Sheets (CSV-based, read-only)
-* **Architecture:** Activity-based with composable UI components
+* **Data Source:** Google Sheets (CSV-based API)
+* **Architecture Style:** Activity-based with composable UI layers
 
 ---
 
-## 🧩 Architecture Highlights
+## 🧩 Architecture & Engineering Highlights
 
-* Modular composable UI design
-* Separation of concerns for maintainability
-* Lightweight data-fetching mechanism using CSV endpoints
-* Optimized rendering using Jetpack Compose
-
----
-
-## 🔐 Security & Repository Scope
-
-This repository represents a **complete Android Studio project** with
-strict adherence to **security and privacy best practices**.
-
-### 🔒 Security Measures
-
-* APK (`.apk`) and App Bundle (`.aab`) are **excluded**
-* Signing keys / keystores are **never committed**
-* Sensitive configs are protected via `.gitignore`
-* All data is accessed in **read-only mode**
-* No direct database exposure
-
-> ⚠️ This application is **not intended for public distribution**
+* 📦 **Composable UI Architecture** using Jetpack Compose
+* 🔄 **Separation of Concerns** for maintainability
+* 🌐 **Lightweight Data Layer** via CSV endpoints
+* ⚡ Efficient rendering with declarative UI
+* 🧱 Modular components for scalability
 
 ---
 
-## 🚀 Build & Installation
+## 🔐 Security & Data Handling
 
-> ⚠️ **Restricted Usage Notice**
+This application is designed with strict **data protection practices**:
 
-Although the full source code is available:
+* 🔒 No sensitive data stored locally
+* 🚫 No write access to backend (read-only system)
+* 📦 APK / AAB files excluded from repository
+* 🔑 Signing keys and credentials never exposed
+* 🛡️ Controlled content access via structured endpoints
 
-* The app is designed for **internal institutional deployment only**
-* Installation is performed via **Android Studio**
-* Authorized environment is required for proper functionality
+> ⚠️ This application is intended strictly for **internal institutional use**
 
 ---
 
-## 📱 UI & Design Philosophy
+## 🚀 Build & Execution
+
+> ⚠️ Restricted environment required
+
+Although the source code is available:
+
+* Designed for controlled deployment environments
+* Requires Android Studio for build and execution
+* External dependencies must be configured properly
+
+---
+
+## 📱 UI & UX Philosophy
 
 * Minimal and distraction-free interface
-* Card-based layout for structured content
-* Smooth scrolling and responsive UI
-* Focus on accessibility and usability
-* Optimized for real-world school environments
+* Card-based layout for structured navigation
+* Smooth scrolling and responsive performance
+* Accessibility-focused design
+* Optimized for real-world school usage scenarios
 
 ---
 
-## 📊 Key Strengths of the Project
+## 📊 Project Strengths
 
-* Real-world production-like Android app
-* Practical use of **Jetpack Compose in structured UI systems**
-* Secure handling of institutional data
-* Clean architecture suitable for scaling
-* Demonstrates **industry-relevant mobile development practices**
+* 📱 Real-world Android application design
+* ⚙️ Practical use of **Jetpack Compose in production-like systems**
+* 🔐 Strong emphasis on **security and controlled access**
+* 🧱 Clean and scalable architecture
+* 🎯 Demonstrates **industry-relevant mobile development skills**
 
 ---
 
 ## 🔮 Future Enhancements
 
-🚀 Push notifications for announcements
-📊 Admin dashboard for content management
-🌐 Cloud backend integration
-📱 Offline caching for low connectivity scenarios
-🔐 Role-based authentication system
+* 🚀 Push notifications for announcements
+* 📊 Admin dashboard for dynamic content management
+* 🌐 Cloud backend integration (Firebase / REST APIs)
+* 📱 Offline caching for low connectivity environments
+* 🔐 Role-based authentication system
 
 ---
 
 ## 🤝 Contribution Guidelines
-
-This project is primarily for internal use, but improvements are welcome:
 
 ```
 1. Fork the repository
@@ -147,24 +145,13 @@ This project is primarily for internal use, but improvements are welcome:
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
-See the `LICENSE` file for details.
-
-> Note: While the source code is open under MIT,
-> the application itself is intended strictly for **internal institutional use**.
-
----
 
 ## ⭐ Support
 
-If you found this project useful or insightful:
+If you found this project useful:
 
 👉 Star the repository
-👉 Share your feedback
+👉 Share feedback
 👉 Suggest improvements
 
 ---
-
-💡 *Engineered with a focus on simplicity, security, and real-world usability*
