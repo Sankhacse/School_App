@@ -1,123 +1,170 @@
 # 📘 School Management Android App
 
 A **production-grade Android application** built using **Kotlin and Jetpack Compose**
-for an internal **school management system**, designed to streamline
+for a secure, internal **school management system**, designed to streamline
 academic communication and digital resource sharing.
 
-This project represents a **real-world Android application** developed with
-practical constraints such as data privacy, controlled access, and secure
-distribution.
+This project reflects a **real-world mobile application** built under practical constraints such as
+**data privacy, controlled access, and secure distribution** — closely aligned with industry practices.
 
 ---
 
 ## 🌟 Overview
 
-The app acts as a **centralized digital platform** for students, teachers,
-and school authorities to access important academic and administrative
-information in a structured and user-friendly manner.
+The application serves as a **centralized digital platform** for students, teachers,
+and school authorities to access academic and administrative information efficiently.
 
-Key design principles:
-- Simplicity for young users
-- Read-only data access for safety
-- Clean and maintainable architecture
-- Production-level security practices
+### 🎯 Design Principles
+
+* Simplicity for young and non-technical users
+* Read-only architecture to prevent unintended data modification
+* Clean, scalable, and maintainable codebase
+* Security-first development approach
 
 ---
 
-## ✨ Features
+## ✨ Core Features
 
-- 📢 **Announcements**
-    - View latest notices, sorted by timestamp
+### 📢 Announcements
 
-- 📚 **Homework Section**
-    - Class-wise homework display
-    - Clearly formatted dates and content
+* View latest notices in **chronological order**
+* Clean UI for quick readability
 
-- 📝 **Marksheets**
-    - Secure access to class-wise marksheets via documents
+### 📚 Homework Section
 
-- 🖼 **School Gallery**
-    - Images displayed **directly inside the app**
-    - Tap to open full-resolution images in external viewers
+* Class-wise homework organization
+* Structured formatting for better clarity
 
-- 📰 **Digital Magazine**
-    - Access to school publications
+### 📝 Marksheets
 
-- 🎉 **Holiday List**
-    - View official holiday notifications and documents
+* Secure access to academic records
+* Document-based viewing system
+
+### 🖼 School Gallery
+
+* Images displayed **natively inside the app**
+* Tap to open full-resolution images externally
+
+### 📰 Digital Magazine
+
+* Access school publications in digital format
+
+### 🎉 Holiday List
+
+* Official holiday schedules and notices
+* Easy document access
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Language:** Kotlin
-- **UI Framework:** Jetpack Compose (Material 3)
-- **Image Loading:** Coil
-- **Data Source:** Google Sheets (CSV-based, read-only)
-- **Architecture:** Activity-based with composable UI components
+* **Language:** Kotlin
+* **UI Framework:** Jetpack Compose (Material 3)
+* **Image Loading:** Coil
+* **Data Source:** Google Sheets (CSV-based, read-only)
+* **Architecture:** Activity-based with composable UI components
 
 ---
 
-## 🔐 Repository Scope & Security Notice
+## 🧩 Architecture Highlights
 
-This repository contains the **complete Android Studio project**, with
-intentional security and privacy restrictions applied.
+* Modular composable UI design
+* Separation of concerns for maintainability
+* Lightweight data-fetching mechanism using CSV endpoints
+* Optimized rendering using Jetpack Compose
 
-### Important Notes
-- APK (`.apk`) and App Bundle (`.aab`) files are **NOT included**
-- Signing keys / keystores are **NOT included**
-- Sensitive configuration files are excluded via `.gitignore`
-- All institutional data is accessed in **read-only mode**
-- The application is **not intended for public deployment**
+---
 
-These decisions reflect **production-grade security practices**
-used in real institutional software.
+## 🔐 Security & Repository Scope
+
+This repository represents a **complete Android Studio project** with
+strict adherence to **security and privacy best practices**.
+
+### 🔒 Security Measures
+
+* APK (`.apk`) and App Bundle (`.aab`) are **excluded**
+* Signing keys / keystores are **never committed**
+* Sensitive configs are protected via `.gitignore`
+* All data is accessed in **read-only mode**
+* No direct database exposure
+
+> ⚠️ This application is **not intended for public distribution**
 
 ---
 
 ## 🚀 Build & Installation
 
-> ⚠️ **Notice**
+> ⚠️ **Restricted Usage Notice**
 
-Although this repository contains the full project structure,
-the application **cannot be distributed publicly**.
+Although the full source code is available:
 
-The app is built and installed internally using Android Studio
-for authorized users only.
-
----
-
-## 📸 UI & Design
-
-- Minimal, school-friendly interface
-- Card-based content layout
-- Smooth scrolling lists
-- Direct image previews in gallery sections
-- Focus on accessibility and clarity
+* The app is designed for **internal institutional deployment only**
+* Installation is performed via **Android Studio**
+* Authorized environment is required for proper functionality
 
 ---
 
-## 🎯 Purpose of This Project
+## 📱 UI & Design Philosophy
 
-- Real-world Android development experience
-- Practical application of Jetpack Compose
-- Secure handling of institutional data
-- Demonstration of production-level mobile app design
+* Minimal and distraction-free interface
+* Card-based layout for structured content
+* Smooth scrolling and responsive UI
+* Focus on accessibility and usability
+* Optimized for real-world school environments
 
 ---
 
-## 👤 Author
+## 📊 Key Strengths of the Project
 
-**Sankha Subhra Mandal**  
-B.Tech – Computer Science & Engineering  
-IIT (BHU), Varanasi
+* Real-world production-like Android app
+* Practical use of **Jetpack Compose in structured UI systems**
+* Secure handling of institutional data
+* Clean architecture suitable for scaling
+* Demonstrates **industry-relevant mobile development practices**
+
+---
+
+## 🔮 Future Enhancements
+
+🚀 Push notifications for announcements
+📊 Admin dashboard for content management
+🌐 Cloud backend integration
+📱 Offline caching for low connectivity scenarios
+🔐 Role-based authentication system
+
+---
+
+## 🤝 Contribution Guidelines
+
+This project is primarily for internal use, but improvements are welcome:
+
+```
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Submit a pull request
+```
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.  
+This project is licensed under the **MIT License**.
 See the `LICENSE` file for details.
 
 > Note: While the source code is open under MIT,
-> the application itself is intended for **internal institutional use only**.
+> the application itself is intended strictly for **internal institutional use**.
+
+---
+
+## ⭐ Support
+
+If you found this project useful or insightful:
+
+👉 Star the repository
+👉 Share your feedback
+👉 Suggest improvements
+
+---
+
+💡 *Engineered with a focus on simplicity, security, and real-world usability*
