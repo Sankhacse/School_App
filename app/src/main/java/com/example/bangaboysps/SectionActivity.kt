@@ -178,7 +178,7 @@ class SectionActivity : ComponentActivity() {
         const val VIDEO_CSV =
             "https://docs.google.com/spreadsheets/d/19t6NEDUWEyL9iImJpvjGyWMbVS_cw5vZ3DmdnIa4LgY/export?format=csv&gid=1942431404"
         const val HOMEWORK_CSV =
-            "https://docs.google.com/spreadsheets/d/19t6NEDUWEyL9iImJpvjGyWMbVS_cw5vZ3DmdnIa4LgY/export?format=csv&gid=561711561"
+            "https://docs.google.com/spreadsheets/d/19t6NEDUWEyL9iImJpvjGyWMbVS_cw5vZ3DmdnIa4LgY/export?format=csv&gid=1558160034"
         const val MARKSHEET_CSV =
             "https://docs.google.com/spreadsheets/d/19t6NEDUWEyL9iImJpvjGyWMbVS_cw5vZ3DmdnIa4LgY/export?format=csv&gid=248471653"
         const val ANNOUNCEMENT_CSV =
